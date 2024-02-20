@@ -50,10 +50,7 @@ const actualizar = async(id) =>{
     }})
 }
 
-const eliminar = async(id)=>{
-    const gasolinera = await gasolineraModel.deleteOne({_id:id})
-    console.log(gasolinera)
-}
+
 
 
 app.get('/', (req, res)=>{
